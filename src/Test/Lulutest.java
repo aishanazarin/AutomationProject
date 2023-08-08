@@ -40,7 +40,7 @@ WebDriver driver;
 		ob.elecclick();
 		ob.hdphnclick();
 		ob.audioclick();
-		ob.searchclick("coconut oil");
+		ob.searchclick("shampoo");
 		ob.wishclick();
 		ob.createclick();
 		ob.wishname("My wishlist");
