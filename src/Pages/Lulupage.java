@@ -20,7 +20,7 @@ WebDriver driver;
 	By drop = By.xpath("//*[@id=\"dropdownMenuButton\"]");
 	By dvalue = By.xpath("//*[@id=\"clp-container-fluid\"]/div/div/div[2]/div/div/div[1]/div[2]/form/div[2]/div/div/a[4]");
 	By add = By.xpath("//*[@id=\"pdpAddtoCartInput_1482932\"]");
-	//By phnname1 = By.xpath("//*[@id=\"productName1604380\"]/a");
+
     By cart = By.xpath("//*[@id=\"header\"]/section/div/div/div[4]/ul/li[4]/a[2]/span");
     By checkout = By.xpath("//*[@id=\"checkoutitems\"]");
 	By address = By.xpath("//*[@id=\"checkout-section\"]/div/div/div/div[1]/div[2]/div[2]/ul/li[1]/div/div/div/div");
@@ -78,12 +78,7 @@ WebDriver driver;
 		driver.findElement(sigin).click();
 	}
 	
-	//public void logverify()
-	//{
-		//String ex="Homepage - Lulu Hypermarket India";
-		//String act = driver.getTitle();
-		//System.out.println("Login verified");
-	//}
+	
 	 public void phnclick()
 	 {
 		 driver.findElement(phone).click();
